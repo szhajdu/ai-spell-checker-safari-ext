@@ -1,0 +1,47 @@
+# Xcode Specific
+.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+.idea/
+*.xcworkspace
+
+# Build Products
+build/
+*.app
+*.ipa
+*.dSYM
+*.xcarchive
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/*.log
+
+# Xcode Extension Data
+*.xcuserstate
+*.xcdebugger
+
+# macOS Specific
+Icon?
+.Spotlight-V100
+.Trashes

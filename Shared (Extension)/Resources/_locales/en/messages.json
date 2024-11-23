@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "AI Spell Checker",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Highlight text and get spelling suggestions via AI.",
+        "description": "Description of what the extension does."
+    }
+}
