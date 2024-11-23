@@ -1,14 +1,5 @@
 browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === 'replaceText') {
-        // Copy the corrected text to the clipboard.
-        navigator.clipboard.writeText(message.text)
-            .then(() => {
-                console.log('Text copied to clipboard:', message.text);
-            })
-            .catch(err => {
-                console.error('Failed to copy text:', err);
-            });
-
         // Check if the active element is a textarea or an input field
         const activeElement = document.activeElement;
         if (activeElement && (activeElement.tagName === 'TEXTAREA' || (activeElement.tagName === 'INPUT' && activeElement.type === 'text'))) {
